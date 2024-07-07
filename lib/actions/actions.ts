@@ -10,7 +10,12 @@ export const getTotalSales = async () => {
     (acc, order) => acc + order.totalAmount,
     0
   );
-  return { totalOrders, totalRevenue };
+
+  const totalRevenueRounded = parseFloat(totalRevenue.toFixed(2));
+
+  return { totalOrders, totalRevenue: totalRevenueRounded };
+
+  // return { totalOrders, totalRevenue };
 };
 
 export const getTotalCustomers = async () => {
