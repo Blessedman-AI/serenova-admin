@@ -46,7 +46,7 @@ const MultiText = ({
           <Badge key={index} className="bg-grey-1 text-white">
             {item}
             <button
-              className="ml-1 rounded-full outline-none hover:bg-red-1"
+              className="ml-1 rounded-full outline-none hover:bg-orange-1"
               onClick={() => onRemove(item)}
               type="button"
             >

@@ -55,7 +55,7 @@ const MultiSelect = ({
             {collection.title}
             <button
               type="button"
-              className="ml-1 hover:text-red-1"
+              className="ml-1 hover:text-orange-1"
               onClick={() => onRemove(collection._id)}
             >
               <X className="h-3 w-3" />

@@ -151,7 +151,7 @@ const ProductForm = ({ initialData }: ProductFormProps) => {
                     onKeyDown={handleKeyPress}
                   />
                 </FormControl>
-                <FormMessage className="text-red-1" />
+                <FormMessage className="text-orange-1" />
               </FormItem>
             )}
           />
@@ -169,7 +169,7 @@ const ProductForm = ({ initialData }: ProductFormProps) => {
                     onKeyDown={handleKeyPress}
                   />
                 </FormControl>
-                <FormMessage className="text-red-1" />
+                <FormMessage className="text-orange-1" />
               </FormItem>
             )}
           />
@@ -192,7 +192,7 @@ const ProductForm = ({ initialData }: ProductFormProps) => {
                     }
                   />
                 </FormControl>
-                <FormMessage className="text-red-1" />
+                <FormMessage className="text-orange-1" />
               </FormItem>
             )}
           />
@@ -212,7 +212,7 @@ const ProductForm = ({ initialData }: ProductFormProps) => {
                       onKeyDown={handleKeyPress}
                     />
                   </FormControl>
-                  <FormMessage className="text-red-1" />
+                  <FormMessage className="text-orange-1" />
                 </FormItem>
               )}
             />
@@ -230,7 +230,7 @@ const ProductForm = ({ initialData }: ProductFormProps) => {
                       onKeyDown={handleKeyPress}
                     />
                   </FormControl>
-                  <FormMessage className="text-red-1" />
+                  <FormMessage className="text-orange-1" />
                 </FormItem>
               )}
             />
@@ -247,7 +247,7 @@ const ProductForm = ({ initialData }: ProductFormProps) => {
                       onKeyDown={handleKeyPress}
                     />
                   </FormControl>
-                  <FormMessage className="text-red-1" />
+                  <FormMessage className="text-orange-1" />
                 </FormItem>
               )}
             />
@@ -271,7 +271,7 @@ const ProductForm = ({ initialData }: ProductFormProps) => {
                       }
                     />
                   </FormControl>
-                  <FormMessage className="text-red-1" />
+                  <FormMessage className="text-orange-1" />
                 </FormItem>
               )}
             />
@@ -299,7 +299,7 @@ const ProductForm = ({ initialData }: ProductFormProps) => {
                         }
                       />
                     </FormControl>
-                    <FormMessage className="text-red-1" />
+                    <FormMessage className="text-orange-1" />
                   </FormItem>
                 )}
               />
@@ -326,7 +326,7 @@ const ProductForm = ({ initialData }: ProductFormProps) => {
                       }
                     />
                   </FormControl>
-                  <FormMessage className="text-red-1" />
+                  <FormMessage className="text-orange-1" />
                 </FormItem>
               )}
             />
@@ -352,7 +352,7 @@ const ProductForm = ({ initialData }: ProductFormProps) => {
                       }
                     />
                   </FormControl>
-                  <FormMessage className="text-red-1" />
+                  <FormMessage className="text-orange-1" />
                 </FormItem>
               )}
             />

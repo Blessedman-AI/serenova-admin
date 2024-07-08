@@ -30,7 +30,7 @@ const ImageUpload = ({ onChange, onRemove, value }: ImageUploadProps) => {
                 type="button"
                 onClick={() => onRemove(url)}
                 size="sm"
-                className="bg-red-1 text-white"
+                className="bg-orange-1 text-white"
               >
                 <Trash className="h-4 w-4" />
               </Button>
